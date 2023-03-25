@@ -41,5 +41,9 @@ while true; do
 
     0)
       echo "Exiting..."
-      exit 0
-     
+      # Exit script
+      exit;;
+    *)
+      echo "Invalid option";;
+  esac
+done
